@@ -1,0 +1,23 @@
+name: Prepare November content
+on:
+  push:
+    branches: [editorial/november-2026-reviews]
+    paths: [tools/build_november.py]
+permissions:
+  contents: write
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build and validate requested website update
+        run: python3 tools/build_november.py
+      - name: Commit generated website and logo assets
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add index.html affiliate-links.json assets/logos README.md CHANGELOG.md QA.md
+          if ! git diff --cached --quiet; then
+            git commit -m 'Build ten November reviews, supplied logos and affiliate links'
+            git push origin HEAD:editorial/november-2026-reviews
+          fi
