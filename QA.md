@@ -127,3 +127,44 @@ Operator facts, live bonuses, withdrawal performance, launch dates, licensing st
   "javascriptErrors": [],
   "limits": "Local browser emulation only. Not physical-device, Safari, Firefox, accessibility certification or real-money operator testing."
 }
+
+
+## Review order and card-details structural checks — 16 November 2026
+
+```json
+{
+  "date": "2026-11-16",
+  "reviewPlacement": "Immediately after #overview",
+  "cardsWithFacts": 10,
+  "factFields": 60,
+  "reviews": 10,
+  "logosUnchanged": true,
+  "affiliateLinksUnchanged": true,
+  "coreCssUnchanged": true,
+  "duplicateIds": 0,
+  "brokenInternalAnchors": 0,
+  "ukAcceptance": "Unconfirmed; no affirmative acceptance labels added",
+  "htmlSha256": "dc15ffe8b2eabc5d83a1a7ae09739eba432bd1bde10e8aec635a072cfff28cd8"
+}
+```
+
+These are executed structural checks. Browser results, when executed, are recorded separately.
+
+
+### Executed card-update browser checks
+
+```json
+{
+  "engine": "Headless Chromium via Playwright",
+  "checks": [
+    "Ten cards, 60 facts, ten original logos and ten full reviews; reviews directly follow the overview.",
+    "Search, sorting and the comparison modal show the new offer, spins, wagering, UK and payment fields.",
+    "Read-review links and linked offer sources navigate correctly and reveal the collapsed source notes.",
+    "No document-level horizontal overflow at 320, 360, 390, 590, 768, 1000 and 1440 pixels.",
+    "The mobile menu closes after choosing a section.",
+    "The expanded card information and all reviews remain in the initial HTML and readable without JavaScript."
+  ],
+  "javascriptErrors": [],
+  "scope": "Local browser emulation only; not physical-device, cross-browser, real-money or operator-eligibility testing."
+}
+```

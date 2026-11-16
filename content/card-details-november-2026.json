@@ -1,0 +1,244 @@
+{
+  "retrievedOn": "2026-11-16",
+  "method": "Published and indexed sources; not live eligibility or payment testing. UK acceptance is unconfirmed for every entry.",
+  "cards": [
+    {
+      "id": "donbet",
+      "kind": "Reported welcome offer",
+      "offer": "150% up to €750",
+      "detail": "+ 50 free spins · directory-listed",
+      "spins": "50 (reported)",
+      "deposit": "€20 (reported)",
+      "wagering": "30× deposit + bonus + spin winnings (reported)",
+      "payments": "Bitcoin and other methods listed",
+      "withdrawals": "€7,500/week; €15,000/month (reported)",
+      "terms": "Casino Guru lists the match and spins; the indexed Bitcoin.com review reports the deposit and wagering conditions, a €5 maximum bonus bet and a 30-day deadline. These are secondary reports, not a confirmed offer for a UK account.",
+      "sources": [
+        [
+          "Casino Guru — reported offer, payments and limits",
+          "https://casino.guru/donbet-casino-review"
+        ],
+        [
+          "Bitcoin.com — indexed bonus-terms report; direct page is region-dependent",
+          "https://www.bitcoin.com/gambling/reviews/donbet/"
+        ]
+      ],
+      "ukPlayers": "Not confirmed by current operator terms",
+      "retrievedOn": "2026-11-16",
+      "sourceStatus": "Secondary reports — not operator-confirmed"
+    },
+    {
+      "id": "goldenbet",
+      "kind": "Operator-published weekly offer",
+      "offer": "Up to 200 free spins",
+      "detail": "100 on Thursday + 100 on Friday",
+      "spins": "100 per qualifying day",
+      "deposit": "€50 / £50 on each day",
+      "wagering": "Wager-free winnings on this offer",
+      "payments": "Check the current cashier",
+      "withdrawals": "€1,000 / £1,000 spin-winnings cap",
+      "terms": "This is a recurring promotion, not a verified welcome package. The indexed operator page names Hot Chilli Bells, code GOLDEN and activation within one hour of depositing. A separate qualifying deposit is needed on each of the two days. The specific offer has its own cashout limit; do not apply it to other bonuses.",
+      "sources": [
+        [
+          "Goldenbet — indexed weekly free-spin promotion and specific conditions",
+          "https://goldenbet.com/static/promos?pid=11739"
+        ]
+      ],
+      "ukPlayers": "Not confirmed by current operator terms",
+      "retrievedOn": "2026-11-16",
+      "sourceStatus": "Indexed operator text"
+    },
+    {
+      "id": "betportal",
+      "kind": "Reported first-deposit offer",
+      "offer": "150% up to €500",
+      "detail": "Free-spin allocation needs confirmation",
+      "spins": "Reports differ: 20 to 200",
+      "deposit": "€20 (reported)",
+      "wagering": "35× bonus (reported)",
+      "payments": "Bitcoin listed; GBP account currency reported",
+      "withdrawals": "Current operator limits not confirmed",
+      "terms": "Mr Gamble lists 20 first-deposit spins; CashToCode reports a deposit-dependent allocation of 20–200. The operator promotion page did not expose readable offer conditions during research. The figures are attributed reports, not a reconciled or UK-verified package.",
+      "sources": [
+        [
+          "Mr Gamble — reported first-deposit offer and conditions",
+          "https://mr-gamble.com/en/online-casino/betportal-casino/"
+        ],
+        [
+          "CashToCode — reported deposit-dependent spin allocation",
+          "https://cashtocode.com/ir/casinos/betportal-casino"
+        ],
+        [
+          "Casino Guru — payment and currency listing",
+          "https://casino.guru/betportal-casino-review"
+        ],
+        [
+          "Betportal — operator promotion page; offer text not retrievable",
+          "https://betportal.com/en/promotions"
+        ]
+      ],
+      "ukPlayers": "Not confirmed by current operator terms",
+      "retrievedOn": "2026-11-16",
+      "sourceStatus": "Secondary reports — not operator-confirmed"
+    },
+    {
+      "id": "mystake",
+      "kind": "Operator-published welcome package",
+      "offer": "Up to €1,500 / $1,500",
+      "detail": "150% + 100% + 50% across 3 deposits",
+      "spins": "Not specified in this package",
+      "deposit": "€20 / $20 per qualifying deposit",
+      "wagering": "30× deposit + bonus",
+      "payments": "Crypto payments reported",
+      "withdrawals": "Current account limits not confirmed",
+      "terms": "The indexed operator terms split the package into 150% up to €/$750, 100% up to €/$500 and 50% up to €/$250. Slots only; maximum bonus bet €/$5; 30-day wagering deadline. Each stage is optional and must be activated before playing. No free-spin entitlement is specified in this particular package.",
+      "sources": [
+        [
+          "MyStake — indexed welcome-package terms",
+          "https://www.mystake.com/promotions?id=3221"
+        ],
+        [
+          "Casino Guru — reported cryptocurrency payments",
+          "https://casino.guru/mystake-casino-review"
+        ]
+      ],
+      "ukPlayers": "Not confirmed by current operator terms",
+      "retrievedOn": "2026-11-16",
+      "sourceStatus": "Indexed operator text"
+    },
+    {
+      "id": "wildies",
+      "kind": "Reported welcome offer",
+      "offer": "150% up to €1,000",
+      "detail": "+ 100 free spins · directory-listed",
+      "spins": "100 (reported)",
+      "deposit": "Not confirmed from operator terms",
+      "wagering": "Not confirmed from operator terms",
+      "payments": "BTC, BCH, DOGE and bank transfer listed",
+      "withdrawals": "€500/day; €2,000/week; €8,000/month (reported)",
+      "terms": "Casino Guru lists this offer and payment limits. The current operator bonus rules were not retrievable; no wagering figure or minimum deposit has been inferred from similarly named websites. Reported limits are not measured payout times.",
+      "sources": [
+        [
+          "Casino Guru — reported offer, methods and withdrawal limits",
+          "https://casino.guru/wildies-casino-review"
+        ]
+      ],
+      "ukPlayers": "Not confirmed by current operator terms",
+      "retrievedOn": "2026-11-16",
+      "sourceStatus": "Secondary reports — not operator-confirmed"
+    },
+    {
+      "id": "betride",
+      "kind": "Operator-published casino offer",
+      "offer": "200 free spins",
+      "detail": "Code BR200 · selected slot only",
+      "spins": "200 at €0.20 each",
+      "deposit": "€100 or equivalent",
+      "wagering": "Wager-free winnings on this offer",
+      "payments": "Crypto promotion published; cashier untested",
+      "withdrawals": "€5,000 spin-winnings cap",
+      "terms": "The indexed casino offer names Fruit Million by BGaming. Code BR200 is single-use, with a one-hour activation window after the deposit and a one-hour use window stated in the promotion. This is separate from the crypto welcome promotion discussed in the review, which has different deposit and wagering rules.",
+      "sources": [
+        [
+          "Betride — indexed 200-free-spin promotion",
+          "https://betride.com/en/static/promos?pid=7588"
+        ],
+        [
+          "Betride — separate indexed crypto-promotion conditions",
+          "https://betride.com/"
+        ]
+      ],
+      "ukPlayers": "Not confirmed by current operator terms",
+      "retrievedOn": "2026-11-16",
+      "sourceStatus": "Indexed operator text"
+    },
+    {
+      "id": "casinok",
+      "kind": "Reported deposit offer",
+      "offer": "100% up to $2,000",
+      "detail": "Directory-listed · amount retained in USD",
+      "spins": "Not specified in the cited offer",
+      "deposit": "Not confirmed from operator terms",
+      "wagering": "Not confirmed from operator terms",
+      "payments": "Visa, Mastercard, BTC and USDT listed",
+      "withdrawals": "100,000 USDC/week (directory-listed)",
+      "terms": "Casino Guru lists three 100% deposit offers with a $2,000 ceiling each. We have not combined them into a guaranteed package or converted the amount to pounds. The directory also reports a 250,000 USDC monthly limit; actual methods, limits and bonus eligibility require current operator confirmation.",
+      "sources": [
+        [
+          "Casino Guru — reported deposit offers, payment methods and limits",
+          "https://casino.guru/casinok-casino-review"
+        ]
+      ],
+      "ukPlayers": "Not confirmed by current operator terms",
+      "retrievedOn": "2026-11-16",
+      "sourceStatus": "Secondary reports — not operator-confirmed"
+    },
+    {
+      "id": "betfoxx",
+      "kind": "Reported offer — read the warning",
+      "offer": "200% up to €20,000",
+      "detail": "+ 100 free spins · not operator-confirmed",
+      "spins": "100 (reported)",
+      "deposit": "Not confirmed from operator terms",
+      "wagering": "Not confirmed from operator terms",
+      "payments": "Bitcoin listed; cashier untested",
+      "withdrawals": "€500/week (reported)",
+      "terms": "Casino Guru lists the promotional figure and withdrawal ceiling. They are not a recommendation or a verified UK offer. A Kahnawà:ke Gaming Commission notice dated 12 September 2024 says BetFoxx was not licensed by that commission and was claiming its authority improperly. That dated notice does not establish every possible current licensing status.",
+      "sources": [
+        [
+          "Casino Guru — reported offer and withdrawal limit",
+          "https://casino.guru/betfoxx-casino-review"
+        ],
+        [
+          "Kahnawà:ke Gaming Commission — advisory of 12 September 2024",
+          "https://gamingcommission.ca/betfoxx-is-not-licensed-by-the-kahnawake-gaming-commission/"
+        ]
+      ],
+      "ukPlayers": "Not confirmed by current operator terms",
+      "retrievedOn": "2026-11-16",
+      "sourceStatus": "Secondary reports — not operator-confirmed"
+    },
+    {
+      "id": "booming-slots",
+      "kind": "Reported deposit offer",
+      "offer": "200% up to €2,000",
+      "detail": "+ 100 free spins · one listed offer",
+      "spins": "100 with the cited deposit offer",
+      "deposit": "Not confirmed from operator terms",
+      "wagering": "Not confirmed from operator terms",
+      "payments": "Current methods not confirmed",
+      "withdrawals": "Low limits reported; amount not confirmed",
+      "terms": "Casino Guru lists this alongside separate 200% offers capped at €500 and €1,000, with different spin allocations. We have not assumed which offer applies to a first deposit or combined separate alternatives. The directory also flags licensing and withdrawal-limit concerns; these remain visible in the detailed review.",
+      "sources": [
+        [
+          "Casino Guru — listed deposit offers and reported concerns",
+          "https://casino.guru/boomingslots-casino-review"
+        ]
+      ],
+      "ukPlayers": "Not confirmed by current operator terms",
+      "retrievedOn": "2026-11-16",
+      "sourceStatus": "Secondary reports — not operator-confirmed"
+    },
+    {
+      "id": "patrick-spins",
+      "kind": "Reported deposit offer",
+      "offer": "150% up to €1,000",
+      "detail": "Directory-listed · not a verified UK offer",
+      "spins": "Not specified in the cited offer",
+      "deposit": "Not confirmed from operator terms",
+      "wagering": "Not confirmed from operator terms",
+      "payments": "BTC, USDT and Polygon listed",
+      "withdrawals": "€2,000/day; €5,000/month (reported)",
+      "terms": "Casino Guru lists 150%, 125% and 175% offers capped at €1,000 each. The cited listing does not specify a free-spin entitlement for the selected offer. The reported withdrawal limits are not payout-time promises, and the current operator terms and UK eligibility remain unconfirmed.",
+      "sources": [
+        [
+          "Casino Guru — reported offers, crypto methods and withdrawal limits",
+          "https://casino.guru/patrick-spins-casino-review"
+        ]
+      ],
+      "ukPlayers": "Not confirmed by current operator terms",
+      "retrievedOn": "2026-11-16",
+      "sourceStatus": "Secondary reports — not operator-confirmed"
+    }
+  ]
+}

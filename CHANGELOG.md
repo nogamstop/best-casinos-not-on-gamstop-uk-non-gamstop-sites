@@ -50,3 +50,11 @@
 - Preserved the original operator notes and linked sources rather than replacing unknown fields with invented promotional claims.
 - Did not add live bonus amounts, numerical ratings, fake authors, payment-provider badges, verified-operator labels or affiliate tracking.
 - Kept the exact page-title topic and all primary content on one HTML page.
+
+
+## Review placement and comparison details — 16 November 2026
+
+- Moved all ten detailed reviews immediately after the non-GamStop explanation, retaining the top comparison cards.
+- Added bonus/spin headlines and six labelled information fields per card, with attributed sources and explicit unresolved eligibility.
+- Kept source currencies, existing logos, affiliate URLs, author and the approved core styling.
+- Updated the comparison dialog and source-data file. No live gambling-account tests or UK-acceptance confirmation are claimed.
