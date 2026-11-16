@@ -1,0 +1,47 @@
+name: Check GBP and editorial ratings
+on:
+  push:
+    branches: [editorial/gbp-ratings-and-controls]
+    paths:
+      - tools/refine_display.py
+      - tools/check_display.py
+      - .github/workflows/refine-display.yml
+permissions:
+  contents: write
+jobs:
+  prepare:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install pinned check dependencies
+        run: python3 -m pip install beautifulsoup4==4.14.3 playwright==1.56.0
+      - name: Apply the narrowly scoped display update
+        run: |
+          python3 tools/refine_display.py
+          node --check display-ui.js
+      - name: Test search, ratings, GBP display and responsive layout
+        run: |
+          python3 -m playwright install --with-deps chromium
+          python3 tools/check_display.py
+      - name: Save check evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gbp-ratings-evidence
+          retention-days: 2
+          path: |
+            index.html
+            display-report.json
+            display-browser-report.json
+            desktop-gbp-ratings.png
+            mobile-gbp-ratings.png
+      - name: Commit checked page and consistent content data
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add index.html content/card-details-november-2026.json content/reviews-november-2026.json content/display-settings.json CHANGELOG.md QA.md
+          if ! git diff --cached --quiet; then
+            git commit -m 'Remove status filters, display GBP and add publisher-assigned editorial ratings'
+            git push origin HEAD:editorial/gbp-ratings-and-controls
+          fi
