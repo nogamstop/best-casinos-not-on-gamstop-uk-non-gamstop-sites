@@ -1,4 +1,15 @@
-# QA — approved one-page design v2
+# QA — approved single-page design v2
+
+## British English documentation and Pages preparation — 16 November 2026
+
+- Reviewed `README.md`, `CHANGELOG.md` and this QA record. Replaced the Bulgarian README with British English and standardised the documentation wording.
+- Confirmed the approved HTML declares `<html lang="en-GB">`.
+- Scanned the matching local HTML for Cyrillic characters; none were found.
+- Recalculated the local HTML's file size, Git blob SHA and SHA-256. They match the recorded approved values below. The repository tree also reports the same HTML blob SHA.
+- Kept `index.html` unchanged. Programming keywords and CSS values such as `color` and `center` are identifiers, not public-facing spelling errors.
+- Confirmed `.nojekyll` is present in the repository and recorded branch-based publishing instructions in the README.
+
+At the repository-settings check, `has_pages` was `false`. These documentation changes do not enable GitHub Pages. No live deployment or additional browser test run is claimed for this update.
 
 ## GitHub upload verification — 16 November 2026
 
@@ -24,7 +35,7 @@ Hosting and a public website deployment were not configured or tested during thi
 
 ## Recorded design QA from the approved package
 
-The following results are retained from the earlier v2 design QA report. The full browser matrix was not rerun during the upload step; content integrity was checked as described above.
+The following results are retained from the earlier v2 design QA report. The full browser matrix was not rerun during the upload or documentation update; content integrity was checked as described above.
 
 ### Environment and scope
 
@@ -32,9 +43,9 @@ Tested in headless Chromium using Playwright. The generated HTML was loaded dire
 
 ### Responsive layout
 
-Tested viewport widths: 320, 360, 390, 430, 590, 768, 780, 820, 1000, 1024, 1280, 1440, 1920 pixels.
+Tested viewport widths: 320, 360, 390, 430, 590, 768, 780, 820, 1000, 1024, 1280, 1440 and 1920 pixels.
 
-No document-level horizontal overflow was found at the tested widths. The section navigation intentionally scrolls horizontally on narrow screens. The comparison table scrolls inside its dialog on small screens.
+No document-level horizontal overflow was found at the tested widths. The section navigation intentionally scrolls horizontally on narrow screens. The comparison table scrolls inside its dialogue box on small screens.
 
 Visual inspection included the desktop and mobile first screens and the long-form article layout.
 
@@ -48,7 +59,7 @@ Visual inspection included the desktop and mobile first screens and the long-for
 - PASS: Three-site limit, warning, comparison and clear control work.
 - PASS: Review buttons and source links open their collapsed sections.
 - PASS: Direct deep links reveal the requested review note.
-- PASS: Editorial disclosure modal and navigation work.
+- PASS: Editorial disclosure dialogue box and navigation work.
 - PASS: FAQ accordion opens.
 - PASS: Mobile menu expands and closes after navigation.
 - PASS: No-JavaScript fallback retains all cards, text and expandable notes.
