@@ -2,72 +2,102 @@
 
 Best Online Casinos Not On GamStop UK - Non GamStop Sites
 
-Публично хранилище за одобрения едностраничен проект **Casino Notes, v2**. Страницата е на английски; инструкциите за собственика са на български.
+Public repository for the approved **Casino Notes, v2** single-page website. The website and project documentation use **British English (en-GB)**.
 
-## Текущ статус
+## Project status
 
-Одобреният дизайн е качен като `index.html` директно в основната папка на клона `main`. Файлът е идентичен с одобрената локална версия — без промени по текста, дизайна, CSS или JavaScript.
+The approved design is stored as `index.html` in the root of the `main` branch. Its text, layout, CSS and JavaScript remain unchanged from the approved version.
 
-Това е публикация на кода. При първото качване не е активиран хостинг, не е свързан домейн и не е извършвана заявка за индексиране в Google. Съдържанието остава редакционна и дизайнерска предварителна версия, а не завършена проверена класация.
+The repository contains the website source code. At the last settings check, GitHub Pages had not been enabled. Adding `.nojekyll` prepares the static files for publishing but does not activate hosting by itself. No custom domain has been configured and no request for Google indexing has been submitted as part of this work.
 
-## Файлове
+The content remains an editorial and design preview, not a completed or independently verified casino ranking.
 
-| Файл | Съдържание |
+## Files
+
+| File | Purpose |
 | --- | --- |
-| `index.html` | Цялата страница: английски текст, CSS, JavaScript, SVG и интерактивни функции. |
-| `README.md` | Инструкции за отваряне, редактиране и подготовка за публикуване. |
-| `CHANGELOG.md` | Промените в одобрения дизайн v2. |
-| `QA.md` | Записаните проверки на версията и проверката при качване. |
-| `.gitignore` | Изключвания за локални настройки, временни файлове и файлове с тайни. |
+| `index.html` | The complete page, including British English copy, CSS, JavaScript, SVG illustrations and interactive features. |
+| `README.md` | Instructions for opening, editing and publishing the project. |
+| `CHANGELOG.md` | The approved v2 design changes and subsequent repository updates. |
+| `QA.md` | Recorded design checks, upload verification and subsequent documentation checks. |
+| `.gitignore` | Exclusions for local settings, temporary files and common secret-file patterns. |
+| `.nojekyll` | An empty marker file that disables Jekyll processing when publishing the static site through GitHub Pages. |
 
-PNG прегледите от предоставения ZIP не са част от това първоначално качване. Те не са зависимости на страницата; илюстрацията и иконите са вградени в HTML.
+The PNG previews from the downloadable package are not included in the repository. They are not required by the website: its illustration and icons are embedded in the HTML.
 
-## Отваряне
+## Open the website locally
 
-Изтегли хранилището чрез **Code → Download ZIP**, разархивирай го и отвори `index.html` в браузър. Не са необходими инсталация, компилиране, база данни, API или външни библиотеки.
+Select **Code → Download ZIP**, extract the archive and open `index.html` in a browser. No installation, compilation, database, API or external library is required.
 
-За локален HTTP преглед с вече инсталиран Python изпълни от папката на проекта:
+For a local HTTP preview, with Python already installed, run this command from the project folder:
 
 ```bash
 python -m http.server 8000
 ```
 
-Отвори `http://localhost:8000`. За спиране използвай Ctrl+C.
+Open `http://localhost:8000`. Press **Ctrl+C** in the terminal to stop the server.
 
-## Функции
+## Publish a GitHub Pages preview
 
-Търсене по име, филтри по състояние на проверката, азбучно сортиране, сравнение на два или три сайта, разгъващи се review notes, прозорец с редакционната информация, мобилно меню, FAQ, вътрешни връзки към източниците и индикатор за прочетената част.
+The files are ready for a branch-based static deployment. A repository administrator or maintainer must enable the publishing source in GitHub:
 
-Търсенето, филтрите и сравнението използват JavaScript. Основният текст, казино картите и разгъващите се бележки са налични и без JavaScript. Изборите за сравнение се пазят само в паметта и се изчистват при презареждане.
+1. Open **Settings → Pages** in this repository.
+2. Under **Build and deployment**, set **Source** to **Deploy from a branch**.
+3. Select **main** as the branch and **/ (root)** as the folder.
+4. Select **Save**.
+5. Check the deployment status in **Actions** and use **Visit site** in the Pages settings after a successful deployment.
 
-Текущите големи бутони **Read review** отварят вътрешни бележки. Те не са affiliate адреси и не отвеждат към регистрация или депозит. Цветните надписи на операторите са типографски обозначения, а не официални лога.
+With the current account and repository names, and no custom domain, the expected address after deployment is:
 
-## Редактиране
+```text
+https://nogamstop.github.io/best-casinos-not-on-gamstop-uk-non-gamstop-sites/
+```
 
-Всичко е в `index.html`. Цветовете са CSS променливи в `:root`, заглавието е в единствения `<h1>`, а метаданните са в `<head>`.
+This is the intended website address, not a claim that the site is already live. There is no need to add `index.html` to the end of the address.
 
-За промяна на казино карта потърси нейния `data-brand`, например `data-brand="donbet"`. Данните за сравнението са в `<script id="casino-data" type="application/json">`. Актуализирай едновременно видимата карта и съответния JSON запис. При добавяне или премахване на записи актуализирай и първоначалните бройки върху филтрите.
+GitHub Pages must be used in accordance with GitHub's terms. It is not permitted as free hosting for an online business or a website primarily intended to facilitate commercial transactions. Review the usage restrictions before publishing; choose suitable hosting for a commercial affiliate launch.
 
-Не записвай пароли, API ключове, токени или лични данни в публичните файлове. `.gitignore` не премахва вече публикувани тайни от историята.
+Official guidance:
 
-## Преди реален editorial/affiliate launch
+- [Configure a GitHub Pages publishing source](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+- [GitHub Pages usage limits](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits).
 
-1. Задай окончателно име на проекта, издател и контакти. **Casino Notes** е временно име.
-2. Провери текущите операторски данни, териториалните ограничения, офертите и основанията за всяка оценка. Редът на картите не е класация по качество.
-3. Прегледай приложимите лицензионни и рекламни изисквания преди добавяне на търговски или affiliate връзки.
-4. Избери подходящ хостинг и окончателен публичен адрес. След това добави реални `canonical`, `og:url` и социално изображение; не използвай адреса на GitHub хранилището като адрес на работещия сайт.
-5. При добавяне на analytics, cookies, форми или affiliate tracking актуализирай описанието за поверителност и търговските отношения.
+## Features
 
-## Дизайн и съдържание
+The page includes name search, research-status filters, alphabetical sorting, two- or three-site comparisons, expandable review notes, an editorial disclosure dialogue box, mobile navigation, FAQs, internal source links and a reading-progress indicator.
 
-Оригинален интерфейс с тъмносин хедър, ментови акценти, жълти бутони, казино карти, странична навигация и мобилно оформление. Casino.org и Gambling.com са използвани като ориентири за типа подредба, а не като източник на копирани лога, CSS или статии.
+Search, filtering and comparisons use JavaScript. The main text, casino cards and expandable notes remain available without JavaScript. Comparison selections are stored only in memory and are cleared when the page is reloaded.
 
-Запазени са първоначалните бележки за Donbet, Freshbet, Goldenbet и MyStake. Не са добавяни измислени оценки, бонуси, тестове на тегления или launch dates. Непотвърдените полета остават обозначени.
+The prominent **Read review** buttons open internal notes. They are not affiliate destinations and do not direct visitors to registration or deposit pages. The coloured operator names are typographic labels, not official logos.
 
-## Проверка на първоначалния HTML
+## Editing
 
-- Размер: **107 154 bytes**.
+All website code is in `index.html`. Colours are defined as CSS custom properties in `:root`, the page title appears in the single `<h1>`, and metadata is stored in `<head>`.
+
+To edit a casino card, find its `data-brand` attribute, such as `data-brand="donbet"`. Comparison data is stored in `<script id="casino-data" type="application/json">`. Update both the visible card and its corresponding JSON entry. When adding or removing entries, also update the initial counts displayed on the filters.
+
+Use British English for public-facing copy, documentation, comments and new commit messages. Preserve exact API names, programming keywords, brand names and interface labels where required. For example, CSS uses `color` and `center`; these must not be translated.
+
+Never commit passwords, API keys, access tokens or personal data. `.gitignore` does not remove secrets that have already been published or committed to the repository's history.
+
+## Before a public editorial or affiliate launch
+
+1. Choose the final project name, publisher details and contact information. **Casino Notes** is a working name.
+2. Verify current operator details, territorial restrictions, offers and the evidence supporting each assessment. The order of the cards is not a quality ranking.
+3. Review applicable licensing and advertising requirements before adding commercial or affiliate links.
+4. Choose suitable hosting and the final public website address. Then add accurate `canonical` and `og:url` values and a social sharing image. Do not use the GitHub repository address as the live website address.
+5. Update the privacy and commercial disclosure information when adding analytics, cookies, forms or affiliate tracking.
+
+## Design and content
+
+The original interface uses a navy header, mint accents, yellow buttons, casino cards, desktop section navigation and a responsive mobile layout. Casino.org and Gambling.com informed the general type of layout; their logos, CSS and articles were not copied.
+
+The initial notes for Donbet, Freshbet, Goldenbet and MyStake are retained. No invented ratings, bonuses, withdrawal tests or launch dates have been added. Unverified fields remain labelled.
+
+## Approved HTML integrity
+
+- File size: **107,154 bytes**.
 - Git blob SHA: `44f75fcb3a4980abab086772643601a03c73fce1`.
 - SHA-256: `98b93d66c4eaee414218ea4dc1ad2aff28627c53500eca31eb7d3d994657beca`.
 
-Тези стойности се отнасят за първоначално качения одобрен файл. При бъдещи редакции е нормално да се променят.
+These values identify the approved HTML initially uploaded to the repository. The documentation update does not change that file. Future website edits will normally change its checksums.
