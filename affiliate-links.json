@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "language": "en-GB",
+  "recordedOn": "2026-11-16",
+  "integrationStatus": "Recorded only; these links are not yet connected to the live page.",
+  "source": "URLs supplied by the repository owner in the project conversation. Preserve each URL exactly, including its tracking path.",
+  "destinationVerification": "Not completed. Do not describe these destinations as verified or approved for any jurisdiction.",
+  "buttonSettings": {
+    "externalLabel": "Visit casino",
+    "externalTarget": "_blank",
+    "externalRel": "nofollow sponsored noopener",
+    "reviewLabel": "Read review",
+    "reviewBehaviour": "Open the corresponding review on the same page."
+  },
+  "reviewOrder": [
+    "donbet",
+    "goldenbet",
+    "betportal",
+    "mystake",
+    "wildies",
+    "betride",
+    "casinok",
+    "betfoxx",
+    "booming-slots",
+    "patrick-spins"
+  ],
+  "links": [
+    {
+      "submittedName": "donbet",
+      "casinoId": "donbet",
+      "displayName": "Donbet",
+      "url": "https://btccasinos.net/go/dredgam",
+      "mappingStatus": "Matched to the owner's named casino."
+    },
+    {
+      "submittedName": "goldenbet",
+      "casinoId": "goldenbet",
+      "displayName": "Goldenbet",
+      "url": "https://btccasinos.net/go/gredgam",
+      "mappingStatus": "Matched to the owner's named casino."
+    },
+    {
+      "submittedName": "betportal",
+      "casinoId": "betportal",
+      "displayName": "Betportal",
+      "url": "https://btccasinos.net/go/predgam",
+      "mappingStatus": "Matched to the owner's named casino."
+    },
+    {
+      "submittedName": "mystake",
+      "casinoId": "mystake",
+      "displayName": "MyStake",
+      "url": "https://btccasinos.net/go/mredgam",
+      "mappingStatus": "Matched to the owner's named casino."
+    },
+    {
+      "submittedName": "wildies",
+      "casinoId": "wildies",
+      "displayName": "Wildies",
+      "url": "https://btccasinos.net/go/wildredgam",
+      "mappingStatus": "Matched to the owner's named casino."
+    },
+    {
+      "submittedName": "casino",
+      "casinoId": null,
+      "displayName": null,
+      "proposedCasinoId": "casinok",
+      "proposedDisplayName": "CasinoK",
+      "url": "https://btccasinos.net/go/okredgam",
+      "mappingStatus": "Awaiting owner confirmation: the submitted name is casino, whereas the earlier review list names CasinoK. The redirect could not be verified. Do not activate this link under CasinoK until its identity is confirmed."
+    },
+    {
+      "submittedName": "betride",
+      "casinoId": "betride",
+      "displayName": "Betride",
+      "url": "https://btccasinos.net/go/rideredgam",
+      "mappingStatus": "Matched to the owner's named casino."
+    },
+    {
+      "submittedName": "betfoxx",
+      "casinoId": "betfoxx",
+      "displayName": "BetFoxx",
+      "url": "https://btccasinos.net/go/betfoxxmudgam",
+      "mappingStatus": "Matched to the owner's named casino."
+    },
+    {
+      "submittedName": "booming slots",
+      "casinoId": "booming-slots",
+      "displayName": "Booming Slots",
+      "url": "https://btccasinos.net/go/boosan",
+      "mappingStatus": "Matched to the owner's named casino."
+    },
+    {
+      "submittedName": "patrick spins",
+      "casinoId": "patrick-spins",
+      "displayName": "Patrick Spins",
+      "url": "https://btccasinos.net/go/patrickredgam",
+      "mappingStatus": "Matched to the owner's named casino."
+    }
+  ]
+}
