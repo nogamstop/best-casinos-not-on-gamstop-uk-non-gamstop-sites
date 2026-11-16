@@ -1,5 +1,15 @@
 # Changelog — v2
 
+## British English documentation and Pages preparation — 16 November 2026
+
+- Replaced the Bulgarian README with British English documentation.
+- Standardised documentation wording and recorded British English as the project language.
+- Added the `.nojekyll` marker for static HTML publishing without Jekyll processing.
+- Added the repository-specific GitHub Pages settings and the expected website address to the README.
+- Included a reminder to review GitHub Pages usage restrictions before a commercial launch.
+- Left the approved `index.html` unchanged, including its `en-GB` language attribute, design, text and interactive features.
+- Did not activate GitHub Pages or configure a custom domain as part of these file changes. The publishing source still requires configuration in the repository settings.
+
 ## Initial GitHub upload — 16 November 2026
 
 - Uploaded the approved `index.html` to the root of `main` without altering its content.
@@ -19,9 +29,9 @@
 ## Interaction
 
 - Added name search, status filters, alphabetical sorting and a no-results/reset state.
-- Added in-memory selection for two- or three-site comparisons and a comparison dialog.
-- Added an editorial-disclosure dialog and a mobile navigation menu.
-- Retained native expandable research notes, FAQ and source details.
+- Added in-memory selection for two- or three-site comparisons and a comparison dialogue box.
+- Added an editorial disclosure dialogue box and a mobile navigation menu.
+- Retained native expandable research notes, FAQs and source details.
 - Added keyboard dismissal, reduced-motion handling, reading progress and active-section highlighting.
 
 ## Content integrity
