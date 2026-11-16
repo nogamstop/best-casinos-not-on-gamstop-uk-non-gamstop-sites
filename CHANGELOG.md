@@ -58,3 +58,8 @@
 - Added bonus/spin headlines and six labelled information fields per card, with attributed sources and explicit unresolved eligibility.
 - Kept source currencies, existing logos, affiliate URLs, author and the approved core styling.
 - Updated the comparison dialog and source-data file. No live gambling-account tests or UK-acceptance confirmation are claimed.
+
+
+## Display refinement — 16 November 2026
+
+Removed the three status-filter buttons and the requested list caption. Added the publisher-supplied editorial scores and rating-first sorting. Displayed monetary amounts in GBP, keeping native GBP figures and marking converted amounts as indicative using dated ECB rates. Preserved reviews, warnings, sources, affiliate links and the approved layout.

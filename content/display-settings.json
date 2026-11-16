@@ -1,0 +1,28 @@
+{
+  "modified": "2026-11-16",
+  "displayCurrency": "GBP",
+  "ratings": {
+    "donbet": 9.8,
+    "goldenbet": 9.7,
+    "betportal": 9.6,
+    "mystake": 9.2,
+    "wildies": 9.0,
+    "betride": 8.9,
+    "casinok": 8.8,
+    "betfoxx": 8.5,
+    "booming-slots": 8.3,
+    "patrick-spins": 8.0
+  },
+  "ratingBasis": "Scores supplied by the publisher; not an independent audit, testing score or customer average.",
+  "conversion": {
+    "date": "2026-11-16",
+    "source": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+    "EUR_GBP": "0.83450",
+    "EUR_USD": "1.1014",
+    "USD_GBP": "0.7576720537497730161612493190",
+    "rounding": "Nearest penny; HALF_UP",
+    "marker": "≈",
+    "dualDenominationPolicy": "Use the euro-basis equivalent when no explicit GBP amount is stated. Preserve explicit GBP alternatives.",
+    "cryptoPolicy": "Do not convert stablecoins at assumed dollar parity."
+  }
+}

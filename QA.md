@@ -168,3 +168,58 @@ These are executed structural checks. Browser results, when executed, are record
   "scope": "Local browser emulation only; not physical-device, cross-browser, real-money or operator-eligibility testing."
 }
 ```
+
+
+## Display refinement — 16 November 2026
+
+Executed structural checks:
+```json
+{
+  "htmlSha256": "98aa8f0993c8e88bb9c1aba957b5d3deaf598f8b8a0c19b8074e9f030f4089c3",
+  "ratings": {
+    "donbet": 9.8,
+    "goldenbet": 9.7,
+    "betportal": 9.6,
+    "mystake": 9.2,
+    "wildies": 9.0,
+    "betride": 8.9,
+    "casinok": 8.8,
+    "betfoxx": 8.5,
+    "booming-slots": 8.3,
+    "patrick-spins": 8.0
+  },
+  "statusFiltersRemoved": true,
+  "captionRemoved": true,
+  "displayCurrency": "GBP",
+  "approximateCurrencyMarker": "\u2248",
+  "sourceDate": "2026-11-16",
+  "cards": 10,
+  "reviews": 10,
+  "affiliateLinksPreserved": true,
+  "overviewBeforeReviews": true,
+  "originalCssPreserved": true
+}
+```
+
+Browser results are recorded separately. These checks do not validate the publisher's scores or turn a currency conversion into an operator-confirmed GBP offer.
+
+
+### Executed display-refinement browser checks
+
+```json
+{
+  "engine": "Headless Chromium / Playwright",
+  "transport": "Local HTTP server; repository files unchanged",
+  "checks": [
+    "Requested filters and list caption removed; ten publisher ratings in the specified descending order.",
+    "Search, empty-results reset, alphabetical sorting and rating-first sorting work.",
+    "Comparison table displays the same publisher ratings and native or indicative GBP amounts.",
+    "Full-review and rating-method links remain functional; warnings and disclosures remain available.",
+    "All ten logos decode; no horizontal page overflow at seven viewport widths from 320 to 1440 pixels.",
+    "Ten cards, ten reviews, scores and GBP information remain readable without JavaScript."
+  ],
+  "javascriptErrors": [],
+  "htmlSha256": "98aa8f0993c8e88bb9c1aba957b5d3deaf598f8b8a0c19b8074e9f030f4089c3",
+  "scope": "Local browser emulation, not physical-device tests or casino verification. Editorial scores supplied by the publisher."
+}
+```
