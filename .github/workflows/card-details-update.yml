@@ -1,0 +1,52 @@
+name: Check card details and review order
+on:
+  push:
+    branches: [editorial/card-details-and-review-order]
+    paths:
+      - tools/update_cards.py
+      - tools/check_cards.py
+      - .github/workflows/card-details-update.yml
+permissions:
+  contents: write
+jobs:
+  check-and-prepare:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install pinned test dependencies
+        run: python3 -m pip install beautifulsoup4==4.14.3 playwright==1.56.0
+      - name: Apply and structurally check the editorial update
+        run: |
+          python3 tools/update_cards.py
+          node --check card-update-ui.js
+      - name: Check layout, navigation and comparison behaviour
+        run: |
+          python3 -m playwright install --with-deps chromium
+          python3 tools/check_cards.py
+      - name: Export generated page and check evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: card-details-evidence
+          retention-days: 2
+          path: |
+            index.html
+            content/card-details-november-2026.json
+            content/reviews-november-2026.json
+            card-update-report.json
+            card-browser-report.json
+            desktop-cards.png
+            mobile-cards.png
+            overview-reviews.png
+            comparison.png
+            QA.md
+      - name: Commit checked website files to the edit branch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add index.html content/card-details-november-2026.json content/reviews-november-2026.json QA.md CHANGELOG.md
+          if ! git diff --cached --quiet; then
+            git commit -m 'Improve casino-card facts and move full reviews below the overview'
+            git push origin HEAD:editorial/card-details-and-review-order
+          fi
