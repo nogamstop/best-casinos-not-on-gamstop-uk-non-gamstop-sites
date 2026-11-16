@@ -2,12 +2,15 @@ name: Prepare November content
 on:
   push:
     branches: [editorial/november-2026-reviews]
-    paths: [tools/build_november.py]
+    paths:
+      - tools/**
+      - content/**
+      - .github/workflows/prepare-november-content.yml
 permissions:
   contents: write
 jobs:
   prepare:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
