@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "language": "en-GB",
   "recordedOn": "2026-11-16",
-  "integrationStatus": "Recorded only; these links are not yet connected to the live page.",
+  "integrationStatus": "Integrated into the ten Visit casino buttons in index.html.",
   "source": "URLs supplied by the repository owner in the project conversation. Preserve each URL exactly, including its tracking path.",
   "destinationVerification": "Not completed. Do not describe these destinations as verified or approved for any jurisdiction.",
   "buttonSettings": {
@@ -62,12 +62,10 @@
     },
     {
       "submittedName": "casino",
-      "casinoId": null,
-      "displayName": null,
-      "proposedCasinoId": "casinok",
-      "proposedDisplayName": "CasinoK",
+      "casinoId": "casinok",
+      "displayName": "CasinoK",
       "url": "https://btccasinos.net/go/okredgam",
-      "mappingStatus": "Awaiting owner confirmation: the submitted name is casino, whereas the earlier review list names CasinoK. The redirect could not be verified. Do not activate this link under CasinoK until its identity is confirmed."
+      "mappingStatus": "CasinoK identity confirmed by the owner on 16 November 2026; redirect not independently verified."
     },
     {
       "submittedName": "betride",
@@ -97,5 +95,6 @@
       "url": "https://btccasinos.net/go/patrickredgam",
       "mappingStatus": "Matched to the owner's named casino."
     }
-  ]
+  ],
+  "ownerConfirmedCasinoKOn": "2026-11-16"
 }

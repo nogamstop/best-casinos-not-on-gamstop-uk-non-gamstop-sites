@@ -1,3 +1,33 @@
+# November update — structural QA
+
+{
+  "date": "2026-11-16",
+  "author": "Casino Notes Editorial Team",
+  "reviewBodyWordCounts": {
+    "Donbet": 498,
+    "Goldenbet": 498,
+    "Betportal": 504,
+    "MyStake": 499,
+    "Wildies": 506,
+    "Betride": 496,
+    "CasinoK": 506,
+    "BetFoxx": 503,
+    "Booming Slots": 504,
+    "Patrick Spins": 503
+  },
+  "totalReviewBodyWords": 5017,
+  "cards": 10,
+  "logos": 10,
+  "affiliateLinks": 10,
+  "duplicateIds": 0,
+  "brokenInternalLinks": 0,
+  "htmlSha256": "ba82f1f901de06cc40e3a4212102119f9933d33659ec87ede8594c3b4191df21",
+  "originalCoreCssPreserved": true,
+  "browserChecks": "Not yet run by this build script."
+}
+
+Word counts cover review body paragraphs, excluding headings, cards and source lists. Checks above were executed by the build script. Browser checks, when run, are recorded separately below. The earlier report below describes the previous design, not a new run against this update.
+
 # QA — approved single-page design v2
 
 ## British English documentation and Pages preparation — 16 November 2026
@@ -77,3 +107,23 @@ Visual inspection included the desktop and mobile first screens and the long-for
 ## Not verified by these checks
 
 Operator facts, live bonuses, withdrawal performance, launch dates, licensing status of individual casinos, affiliate conversion performance, third-party destinations and a public deployment were not tested by the UI checks. This is not a full accessibility audit or cross-browser certification.
+
+
+## Executed browser checks for the November update
+
+{
+  "engine": "Headless Chromium / Playwright 1.56.0",
+  "checks": [
+    "Ten cards, ten reviews, ten decoded supplied logos and the requested byline.",
+    "Status filters, combined search, no-result state and reset.",
+    "Alphabetical sorting and restoration of the publisher-selected order.",
+    "Three-site comparison limit, populated comparison table and Escape dismissal.",
+    "Internal full-review navigation, source disclosure and FAQ.",
+    "No document-level horizontal overflow at 320, 360, 390, 590, 768, 1000 and 1440 pixels.",
+    "Mobile navigation opens and closes after choosing a section.",
+    "All ten cards and full reviews remain readable without JavaScript.",
+    "No browser JavaScript errors during these checks."
+  ],
+  "javascriptErrors": [],
+  "limits": "Local browser emulation only. Not physical-device, Safari, Firefox, accessibility certification or real-money operator testing."
+}

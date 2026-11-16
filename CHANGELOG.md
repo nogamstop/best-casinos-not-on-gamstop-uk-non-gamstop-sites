@@ -1,3 +1,14 @@
+# Changelog
+
+## November reviews and supplied branding — 16 November 2026
+
+- Added ten approximately 500-word published-information reviews with source notes and relevant warnings.
+- Added the requested list heading, editorial team byline and modification date.
+- Removed the Editorial preview label without concealing evidence limitations.
+- Integrated the ten exact publisher-supplied affiliate URLs and CasinoK confirmation.
+- Added ten optimised supplied logos and kept the original core design.
+- Updated commercial disclosures, comparison data, filters and navigation.
+
 # Changelog — v2
 
 ## British English documentation and Pages preparation — 16 November 2026
